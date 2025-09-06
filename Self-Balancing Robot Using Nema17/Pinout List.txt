@@ -1,0 +1,14 @@
+| Component         | ESP32 Pin   | Notes         |
+| ----------------- | ----------- | ------------- |
+| DRV8825 #1 STEP   | GPIO 25     | Left wheel    |
+| DRV8825 #1 DIR    | GPIO 26     | Left wheel    |
+| DRV8825 #2 STEP   | GPIO 32     | Right wheel   |
+| DRV8825 #2 DIR    | GPIO 33     | Right wheel   |
+| DRV8825 EN (both) | GPIO 27     | Active LOW    |
+| DRV8825 VDD       | 3.3V        | Logic power   |
+| DRV8825 VMOT      | 12V Battery | Motor power   |
+| DRV8825 GND       | GND         | Common ground |
+| MPU6050 SDA       | GPIO 21     | I²C data      |
+| MPU6050 SCL       | GPIO 22     | I²C clock     |
+| MPU6050 VCC       | 3.3V        | Power         |
+| MPU6050 GND       | GND         | Ground        |
